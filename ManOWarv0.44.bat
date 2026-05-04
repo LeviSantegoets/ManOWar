@@ -26,7 +26,7 @@ set "tempvbs=%TEMP%\manowarwelcomemsg.vbs"
 cscript //nologo "%tempvbs%"
 del /f /q "%tempvbs%" 2>nul
 REM [blacklistsecurity]
-REM goto checkblacklistagainstpubip
+goto checkblacklistagainstpubip
 :publicipallowed
 REM [blacklistsecurity]
 REM PRESENT FUNCTION VARIABLE:
